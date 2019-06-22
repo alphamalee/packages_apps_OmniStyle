@@ -137,6 +137,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         </activity>
 
         <activity
+            android:name=".pbs_skull"
+            android:label="PitchBlack 3 - smart" >
+            <intent-filter>
+                    <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                    <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".theme"
             android:label="Theme" >
             <intent-filter>
